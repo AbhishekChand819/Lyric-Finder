@@ -1,0 +1,369 @@
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+  }
+  .row{
+    margin: 0px;
+  }
+  .heading{
+    font-size: 25px;
+    left: 160px;
+    width: 10%;
+    position: absolute;
+    top: 50px;
+  }
+  h3{
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+    font-weight: bolder;
+  }
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 1390px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.15);
+  }
+  .wrapper .header {
+    width: 100%;
+    height: 155%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(220deg, rgba(2,0,36,1) 0%, rgba(127,72,181,1) 20%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+  }
+  .wrapper .header .logo {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
+  .wrapper .header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 33px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    text-align: right;
+    width: auto;
+  }
+  .wrapper .header .menu li {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+  }
+  .wrapper .header .content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  .wrapper .header .content h2 {
+    color: #fff;
+    margin: 0;
+    font-size: 2.3em;
+    line-height: 1.2em;
+    width: 100%;
+    text-align: center;
+  }
+  .wrapper .header .content .buttons {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper .header .content .button {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    padding-left: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    margin: 40px 5px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);
+    box-shadow: 0px 12px 20px -10px rgba(0,0,0,0.65);
+    transition: box-shadow 0.5s;
+  }
+  .wrapper .header .content .button:hover {
+    -webkit-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);
+    -moz-box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.65);
+    transition: box-shadow 0.5s;
+  }
+  .wrapper .header .content .button.apple {
+    background-image: url("http://vignette2.wikia.nocookie.net/respawnables/images/2/2f/Apple-logo-white-md.png/revision/latest?cb=20160224124036");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+  }
+  .wrapper .header .content .button.google {
+    background-image: url("http://vignette3.wikia.nocookie.net/starwars/images/e/ee/Google_Play_logo.png/revision/latest?cb=20141119230612");
+    background-size: 20px auto;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+  }
+  .wrapper .header .waves {
+    width: calc(100% + 10px);
+    height: auto;
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    z-index: 0;
+  }
+  .wrapper .header .curve {
+    display: none;
+    width: calc(100% + 10px);
+    height: auto;
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    z-index: 1;
+  }
+  
+  .card{
+    border: none;
+  }
+
+  .search{
+    position: absolute;
+    top: 120px;
+    left: 10%;
+    width: 80%;
+  }
+
+  .spinner{
+    overflow-y: hidden !important;
+  }
+
+  .blog-card.playlist{
+    height:90px !important
+  }
+
+  
+  .post-category.playlist{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .post-title.playlist{
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .carousel-slider{
+    width: 100% !important;
+  }
+
+  .slide{
+    background: none !important;
+  }
+
+  .carousel-status{
+    display: none;
+  }
+
+  .carousel-root{
+    width: 100% !important;
+  }
+
+  .control-arrow{
+    background-color: #000 !important;
+  }
+
+  .carousel .thumbs-wrapper{
+    display: none;
+  }
+
+  .control-dots{
+    width: 20% !important;
+    margin: 0 40% !important;
+    padding: 0 !important;
+  }
+
+  .dot{
+    background: black !important;
+    width: 10px !important;
+    height: 10px !important;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .wrapper .header .logo{
+      left:30px;
+      width: 40px;
+      top:50px
+    }
+    .wrapper .header .menu{
+      right:20px;
+      top:48px
+    }
+    .heading{
+      left: 78px;
+      top: 47px;
+      font-size: 25px;
+    }
+    .menu{
+      top: 47px;
+      right: 20px;
+    }
+    .search{
+      left: 0%;
+      width: 100%;
+      top:100px
+    }
+    .divs{
+      top: 220px !important;
+    }
+    .playlists_div{
+      width: 40.3% !important;
+      top: 220px !important;
+    }
+    .divs .text-center,.playlists_div .text-center,.tending_bdiv .text-center{
+      text-decoration: underline;
+      font-size: 23px;
+    }
+    #container,#containers{
+      height: 8.6rem;
+      width: 10.3rem;
+    }
+    .cardContainer{
+      min-width: 165px;
+      height: 100px;
+      min-height: 180px;
+    }
+    .img1 img{
+      height: 140px;
+    }
+    .front .img{
+      border-radius: 5px;
+    }
+    .nb_track{
+      display: none;
+    }
+    .cards .info{
+      padding: 10px;
+    }
+    .tending_bdiv{
+      top: 1230px !important
+    }
+    #containers:nth-last-child(1),#containers:nth-last-child(2),.playlist_card_link:nth-last-child(2){
+      display: none;
+    }
+    .wrapper{
+      min-height: 1280px;
+    }
+    .main_title{
+      width: 150px !important;
+    }
+    .spinner{
+      left: 27% !important;
+      top:30% !important
+    }
+    .lyrics{
+      width: 100% !important;
+    }
+    #card_lyrics .card-text{
+      white-space: pre-line !important;
+      font-size: 18px;
+    }
+    .card-body{
+      overflow-y: scroll;
+      font-size: 1rem;
+      height: 400px;
+    }
+    #card_lyrics{
+      margin-bottom: 20px !important;
+    }
+    .player{
+      width: 92% !important;
+      height: 180px !important;
+    }
+    .cover img{
+      height: 180px !important;
+      width: 180px !important;
+    }
+    .info{
+      left: 15px !important;
+    }
+    #slider{
+      width: 162px !important;
+    }
+    #timer{
+      position: absolute;
+      right: 18px;
+    }
+    .lyrics_div .col-md-5 .list-group{
+      width: 92% !important;
+    }
+    .lyrics_div{
+      min-height: 1100px ;
+    }
+    .slider{
+      width: 100% !important;
+    }
+    .slide .selected{
+      min-width: 100% !important;
+    }
+    .slide_div #container{
+      width: 110% !important;
+      margin-right: 0px !important;
+    }
+    .control-dots{
+      display: none
+    }
+    .control-next{
+      right: -2px !important;
+      background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%) !important;
+      opacity: 1 !important;
+    }
+    .control-prev{
+      left: -5px !important;
+      background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%) !important;
+      opacity: 1 !important;
+    }
+    .post-title.playlist{
+      width: 250px !important;
+    }
+    .playlist_collect .header .row h1{
+      font-size: 25px !important;
+      text-decoration: underline !important;
+      margin-bottom: 20px;
+    }
+  }
